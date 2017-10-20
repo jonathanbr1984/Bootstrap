@@ -1,3 +1,66 @@
+<!--Breadcrumbs-->
+<section class="breadcrumbs-container">
+    <div class="container">
+        <div class="row">
+            <div class="col-sx">
+                <ol class="breadcrumb">
+                    <li> <a ui-sref="catalogo">Catalogo</a> </li>
+                    <li ui-sref-active="active"><a ui-sref="#">Todos los productos</a></li>
+                </ol>
+            </div>
+        </div>
+    </div>
+</section>
+<!--/Breadcrumbs-->
+<!--productos-->
+<section class="Productos-container">
+    <div class="container">
+        <div class="row">
+            <!--filtros-->
+            <div class="col-xs-12 col-md-3">
+                <div class="Filtros-container">
+                    <div class="list-group">
+                        <a class="list-group-item active">
+                            <h5 class="list-group-item-heading">Categorias</h5>
+                        </a>
+                        <a class="list-group-item">Ropa <span class="badge pull-right">174</span></a>
+                        <a class="list-group-item">Tecnologia <span class="badge pull-right">143</span></a>
+                        <a class="list-group-item">Accesorios <span class="badge pull-right">130</span></a>
+                    </div>
+                    <div class="list-group">
+                        <a class="list-group-item active">
+                            <h5 class="list-group-item-heading">Color</h5>
+                        </a>
+                        <a class="list-group-item list-group-item-success">Verde </a>
+                        <a class="list-group-item list-group-item-danger">Rojo </a>
+                        <a class="list-group-item list-group-item-warning">Amarillo </a>
+                        <a class="list-group-item list-group-item-info">Azul </a>
+                    </div>
+                    <div class="list-group">
+                        <a class="list-group-item active">
+                            <h5 class="list-group-item-heading">Genero</h5>
+                        </a>
+                        <a class="list-group-item listGenero">
+                            <div class="checkbox">
+                                <label><input type="checkbox" value="M">Masculino</label></div>
+                        </a>
+                        <a class="list-group-item listGenero">
+                            <div class="checkbox">
+                                <label><input type="checkbox" value="F">Femenino</label></div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <!--/filtros-->
+            <!--productos-->
+            <div class="col-md-12 col-md-9">
+                Productos
+            </div>
+            <!--/productos-->
+        </div>
+    </div>
+</section>
+<!--/productos-->
 <!--catalogo-->
 <div class="modal face" id="modalOferta">
     <div class="modal-dialog">
