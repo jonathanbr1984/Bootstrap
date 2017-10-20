@@ -1,10 +1,25 @@
 <!--catalogo-->
 <div class="modal face" id="modalOferta">
-	<div class="modal-dialog">
-		<div class="modal-content">
-			<div class="modal-header">Este es el header del modal</div>
-			<div class="modal-content">Este es el contenido del modal</div>
-		</div>
-	</div>
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button class="close" type="button" data-dismiss="modal"><i class="fa fa-times"></i></button>
+                <h3 class="modal-oferta">Oferta Exclusiva</h3>
+            </div>
+            <div class="modal-body">
+                Registrate hoy y recibe $15,000 mil pesos de descuento!
+                <form class="form">
+                    <div class="form-group">
+                        <input type="email" class="form-control" placeholder="tu@correo.com">
+                        <small class="text-muted">No compartiremos tu informacion con nadie mas</small>
+                    </div>
+                    <button type="submit" class="btn">Registrate</button>
+                    <button id="btnNoregistrar" class="btn btn-warning" data-dismiss="modal" ng-click="vm.noMostrarModal()">No, quiero descuento</button>
+                </form>
+                <!--div class="modal-header">Este es el header del modal</div>
+            <div class="modal-content">Este es el contenido del modal</div-->
+            </div>
+        </div>
+    </div>
 </div>
 <!--/catalogo-->

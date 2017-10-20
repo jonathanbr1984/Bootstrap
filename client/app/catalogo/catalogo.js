@@ -1,4 +1,4 @@
-'use strict',
+'use strict';
 angular.module('bootstrapApp')
 .config(function($stateProvider) {
 	$stateProvider
